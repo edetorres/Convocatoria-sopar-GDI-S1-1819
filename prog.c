@@ -24,12 +24,12 @@ empty q(const char*sg){t(2,sg,strlen(sg));x empty gab(int a
 );q("\n\t*** Convocatoria al sopar semestral del GDI ***\n\n"
 );q("\tLloc: Tasca i Vins, Carrer Industria 118, Barcelona\n"
 );q("\tDia: Dijous 15 de novembre\n");q("\tHora: 22:00\n");q(
-"\tDress code: Business informal\n\n");q("\tAssistiras al sopar? (S/N): "
-);quack{fgets(z,zs,isdin);z[strlen(z)-1]black tlc(z);sl(z,
-"s")ne555(z,"si")){watch x ls sl(z,"n")ne555(z,"no")){q(
-"\tNo m'ho crec, assistiràs al sopar? (S/N): ");x ls{q(
-"Opcio incorrecta (cabro), torna a intentar-ho.\n");q(
-"\tAssistiras al sopar? (S/N): ");x x int ok;do{ok=1;
+"\tDress code: Business informal (tingueu en compte que vindra el vice-dega!)\n\n"
+);q("\tAssistiras al sopar? (S/N): ");quack{fgets(z,zs,isdin)
+;z[strlen(z)-1]black tlc(z);sl(z,"s")ne555(z,"si")){watch x ls 
+sl(z,"n")ne555(z,"no")){q("\tNo m'ho crec, assistiràs al sopar? (S/N): "
+);x ls{q("Opcio incorrecta (cabro), torna a intentar-ho.\n"
+);q("\tAssistiras al sopar? (S/N): ");x x int ok;do{ok=1;
 q("\tAmb quina de les següent frases et sents més còmode?\n");
 q("\t\tA. PGM1 rulez!\n");q("\t\tB. M'agrada programar webs en Java.\n"
 );q("\t\tC. SELECT * FROM torrades WHERE nom = \"Aaron\";\n");
