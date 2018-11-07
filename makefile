@@ -1,7 +1,11 @@
 CC=gcc
 DEPS = prog.c
 
-convo: $(DEPS)
+all: $(DEPS)
 	$(CC) -o $@ $^ 
 	./$@
-	
+
+ncurses: convo.c
+	$(CC) -o $@ $^ -lncurses
+	./$@
+
